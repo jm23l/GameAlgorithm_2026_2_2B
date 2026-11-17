@@ -36,7 +36,7 @@ namespace AlgoLesson8.Student
 
                 if(best == null ||
                     machine.ItemsPerMinute < best.ItemsPerMinute ||
-                    (machine.ItemsPerMinute == best.ItemsPerMinute && string.CompareOrdinal(machine.Id, best.Id) < 0))
+                    (machine.ItemsPerMinute == best.ItemsPerMinute && string.CompareOrdinal(machine.Id, best.Id) < 0)) 
                 {
                     best = machine;
                 }
